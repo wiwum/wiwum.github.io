@@ -1,0 +1,22 @@
+body {
+   background-color: black;
+   color: white;
+}
+
+button {
+   background-color: black;
+   color: white;
+   border: 3px solid white;
+}
+
+button:hover {
+   background-color: white;
+   color: black;
+   border: 3px solid black;
+}
+
+button:active {
+   background-color: white;
+   color: white;
+   border: 3px solid white;
+}
