@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Farmy Farm</title>
+   <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+</head>
+
+<body>
+   <H1>Welcome to Farmy Farm</H1>
+   <H2 id="farmAndMoneys">This is your farm you have money moneys</H2>
+   <!--buttons (plots of land) to grow crops-->
+   <H3>These are the plots of land that can plant crops on. Scroll down to see what you are planting. Scroll down more to see the stats of each crop. Scroll down more to get to the kitchen, scroll down more to get to the market.</H3>
+   <button id="one" onClick="plantSquare1()"></button>
+   <button id="two" onClick="plantSquare2()"></button>
+   <button id="three" onClick="plantSquare3()"></button>
+   <button id="four" onClick="plantSquare4()"></button>
+   <button id="five" onClick="plantSquare5()"></button>
+   <button id="six" onClick="plantSquare6()"></button>
+   <button id="seven" onClick="plantSquare7()"></button>
+   <button id="eight" onClick="plantSquare8()"></button>
+   <button id="nine" onClick="plantSquare9()"></button>
+   <button id="ten" onClick="plantSquare10()"></button>
+   <button id="eleven" onClick="plantSquare11()"></button>
+   <button id="twelve" onClick="plantSquare12()"></button>
+   <button id="thirteen" onClick="plantSquare13()"></button>
+   <button id="fourteen" onClick="plantSquare14()"></button>
+   <button id="fifteen" onClick="plantSquare15()"></button>
+   <button id="sixteen" onClick="plantSquare16()"></button>
+   <button id="seventeen" onClick="plantSquare17()"></button>
+   <button id="eightteen" onClick="plantSquare18()"></button>
+   <button id="nineteen" onClick="plantSquare19()"></button>
+   <button id="twenty" onClick="plantSquare20()"></button>
+   <H2>Click on the plots of land (green outlined squares) to plant crops.</H2>
+   <H2 id="cropName"></H2>
+   <!--Change crop buttons-->
+   <button id="change" onClick="changeCropWheat()">plant wheat</button>
+   <button id="change" onClick="changeCropCorn()">plant corn</button>
+   <button id="change" onClick="changeCropRice()">plant rice</button>
+   <button id="change" onClick="changeCropSugar()">plant sugar</button>
+   <button id="change" onClick="changeCropCarrot()">plant carrots</button>
+   <button id="change" onClick="changeCropPotato()">plant potatoes</button>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <!--crop info-->
+   <H2>This is the crop and food info section:</H2>
+   <H3>wheat: cost to plant: 2, price of sale: 2.5, time to grow: 27 seconds, used to make: bread, cornbread, cake, carrot cake.</H3>
+   <H3>corn: cost to plant: 1, price of sale: 2, time to grow: 54 seconds, used to make: corn chips, corn bread.</H3>
+   <H3>rice: cost to plant: 1.5, price of sale: 3.5, time to grow: 36 seconds, used to make: nothing.</H3>
+   <H3>sugar: cost to plant: 1.5, price of sale: 2, time to grow: 36 second, used to make: cake, carrot cake, sweet potato sweet carrots.</H3>
+   <H3>carrot: cost to plant: 3, price of sale: 5, time to grow: 54 seconds, used to make: carrot cake, sweet carrot.</H3>
+   <H3>potato: cost to plant: 1, price of sale: 2.5, time to grow: 36 seconds, used to make: sweet potato.</H3>
+   <H3>Bread: items to make: 2 wheat, price at sale: 7, time to make: 7 seconds, used to make: corn bread.</H3>
+   <H3>Cake: items to make: 2 wheat and 1 sugar, price at sale: 9.5, time to make: 8 seconds, used to make: carrot cake.</H3>
+   <H3>Corn bread: items to make: 1 bread and 2 corn, price at sale: 12.5, time to make: 4 seconds, used to make: nothing</H3>
+   <H3>Carrot cake: items to make: 1 cake and 2 carrots, price at sale: 22.5, time to make: 7 seconds, used to make: nothing.</H3>
+   <H3>Corn chip: items to make: 2 corn, price at sale: 5.5, time to make: 5 seconds, used to make: nothing.</H3>
+   <H3>Sweet potatoes: items to make: 1 potato and 1 sugar, price at sale: 5.5, time to make: 4.5 seconds, used to make: nothing.</H3>
+   <H3>Sweet carrots: items to make: 1 carrot and 1 sugar, price at sale: 10, time to make: 7.5 seconds, used to make: nothing.</H3>
+   <H3 id="numberOfStuff"></H3>
+   <br>
+   <br>
+   <br>
+   <br>
+   <!--Kitchen: combine crops to make food-->
+   <H2>This is the kitchen where you can cook things. The info about the food can be found above.</H2>
+   <button class="kitchen" id="kitchenBread" onClick="makeBread()">make bread</button>
+   <button class="kitchen" id="kitchenCake" onClick="makeCake()">make cake</button>
+   <button class="kitchen" id="kitchenCornBread" onClick="makeCornBread()">make corn bread</button>
+   <button class="kitchen" id="kitchenCarrotCake" onClick="makeCarrotCake()">make carrot cake</button>
+   <button class="kitchen" id="kitchenCornChips" onClick="makeCornChips()">make corn chips</button>
+   <button class="kitchen" id="kitchenSweetPotatoes" onClick="makeSweetPotatoes()">make sweet potatoes</button>
+   <button class="kitchen" id="kitchenSweetCarrots" onClick="makeSweetCarrots()">make sweet carrots</button>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <!--market for selling things-->
+   <H2>This is the market where you can sell your crops and food.</H2>
+   <button id="market" onClick="sellCorn()">sell corn</button>
+   <button id="market" onClick="sellWheat()">sell wheat</button>
+   <button id="market" onClick="sellRice()">sell rice</button>
+   <button id="market" onClick="sellSugar()">sell sugar</button>
+   <button id="market" onClick="sellCarrot()">sell carrot</button>
+   <button id="market" onClick="sellPotato()">sell potato</button>
+   <button id="market" onClick="sellBread()">sell bread</button>
+   <button id="market" onClick="sellCake()">sell cake</button>
+   <button id="market" onClick="sellCornBread()">sell corn bread</button>
+   <button id="market" onClick="sellCarrotCake()">sell carrot cake</button>
+   <button id="market" onClick="sellCornBread()">sell corn bread</button>
+   <button id="market" onClick="sellCornChips()">sell corn chips</button>
+   <button id="market" onClick="sellSweetPotatoes()">sell sweet potatoes</button>
+   <button id="market" onClick="sellSweetCarrots()">sell sweet carrots</button>
+   <!--
+   corn
+   wheat
+   rice
+   sugar
+   carrot
+   potato
+   bread
+   cake
+   cornBread
+   carrotCake
+   cornChips
+   sweetPotatoes
+   sweetCarrots
+   -->
+</body>
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
