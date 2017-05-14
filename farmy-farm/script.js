@@ -148,36 +148,42 @@ var plantSquare1 = function () {
       }
       //the functions give you the crop reset the styling of the square
       function cornGrow1() {
+        cropIn1 = false;
         corn += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
       }
       function wheatGrow1() {
+        cropIn1 = false;
         wheat += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
       }
       function riceGrow1() {
+        cropIn1 = false;
         rice += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
       }
       function sugarGrow1() {
+        cropIn1 = false;
         sugar += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
       }
       function carrotGrow1() {
+        cropIn1 = false;
         carrots += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
       }
       function potatoGrow1() {
+        cropIn1 = false;
         potatoes += 1;
         plot1.style.backgroundColor = "green";
         plot1.innerHTML = "";
