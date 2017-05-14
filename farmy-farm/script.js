@@ -582,6 +582,8 @@ var plantSquare5 = function () {
   }
 };
 var plantSquare6 = function () {
+  if (cropIn6 == false) {
+    cropIn6 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -628,6 +630,7 @@ var plantSquare6 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow6() {
         corn += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -635,6 +638,7 @@ var plantSquare6 = function () {
 
     function wheatGrow6() {
         wheat += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -642,6 +646,7 @@ var plantSquare6 = function () {
 
     function riceGrow6() {
         rice += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -649,6 +654,7 @@ var plantSquare6 = function () {
 
     function sugarGrow6() {
         sugar += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -656,6 +662,7 @@ var plantSquare6 = function () {
 
     function carrotGrow6() {
         carrots += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -663,13 +670,17 @@ var plantSquare6 = function () {
 
     function potatoGrow6() {
         potatoes += 1;
+        cropIn6 = false;
         plot6.style.backgroundColor = "green";
         plot6.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare7 = function () {
+  if (cropIn7 = false) {
+    cropIn7 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -716,6 +727,7 @@ var plantSquare7 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow7() {
         corn += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -723,6 +735,7 @@ var plantSquare7 = function () {
 
     function wheatGrow7() {
         wheat += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -730,6 +743,7 @@ var plantSquare7 = function () {
 
     function riceGrow7() {
         rice += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -737,6 +751,7 @@ var plantSquare7 = function () {
 
     function sugarGrow7() {
         sugar += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -744,6 +759,7 @@ var plantSquare7 = function () {
 
     function carrotGrow7() {
         carrots += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -751,13 +767,17 @@ var plantSquare7 = function () {
 
     function potatoGrow7() {
         potatoes += 1;
+        cropIn7 = false;
         plot7.style.backgroundColor = "green";
         plot7.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare8 = function () {
+  if (cropIn8 == false) {
+    cropIn8 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -804,6 +824,7 @@ var plantSquare8 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow8() {
         corn += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -811,6 +832,7 @@ var plantSquare8 = function () {
 
     function wheatGrow8() {
         wheat += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -818,6 +840,7 @@ var plantSquare8 = function () {
 
     function riceGrow8() {
         rice += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -825,6 +848,7 @@ var plantSquare8 = function () {
 
     function sugarGrow8() {
         sugar += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -832,6 +856,7 @@ var plantSquare8 = function () {
 
     function carrotGrow8() {
         carrots += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -839,13 +864,17 @@ var plantSquare8 = function () {
 
     function potatoGrow8() {
         potatoes += 1;
+        cropIn8 = false;
         plot8.style.backgroundColor = "green";
         plot8.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare9 = function () {
+  if (cropIn9 == false) {
+    cropIn9 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -892,6 +921,7 @@ var plantSquare9 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow9() {
         corn += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -899,6 +929,7 @@ var plantSquare9 = function () {
 
     function wheatGrow9() {
         wheat += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -906,6 +937,7 @@ var plantSquare9 = function () {
 
     function riceGrow9() {
         rice += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -913,6 +945,7 @@ var plantSquare9 = function () {
 
     function sugarGrow9() {
         sugar += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -920,6 +953,7 @@ var plantSquare9 = function () {
 
     function carrotGrow9() {
         carrots += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -927,13 +961,17 @@ var plantSquare9 = function () {
 
     function potatoGrow9() {
         potatoes += 1;
+        cropIn9 = false;
         plot9.style.backgroundColor = "green";
         plot9.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare10 = function () {
+  if (cropIn10 = false) {
+    cropIn10 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -980,6 +1018,7 @@ var plantSquare10 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow10() {
         corn += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -987,6 +1026,7 @@ var plantSquare10 = function () {
 
     function wheatGrow10() {
         wheat += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -994,6 +1034,7 @@ var plantSquare10 = function () {
 
     function riceGrow10() {
         rice += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1001,6 +1042,7 @@ var plantSquare10 = function () {
 
     function sugarGrow10() {
         sugar += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1008,6 +1050,7 @@ var plantSquare10 = function () {
 
     function carrotGrow10() {
         carrots += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1015,13 +1058,17 @@ var plantSquare10 = function () {
 
     function potatoGrow10() {
         potatoes += 1;
+        cropIn10 = false;
         plot10.style.backgroundColor = "green";
         plot10.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare11 = function () {
+  if (cropIn11 == false) {
+    cropIn11 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1068,6 +1115,7 @@ var plantSquare11 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow11() {
         corn += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1075,6 +1123,7 @@ var plantSquare11 = function () {
 
     function wheatGrow11() {
         wheat += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1082,6 +1131,7 @@ var plantSquare11 = function () {
 
     function riceGrow11() {
         rice += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1089,6 +1139,7 @@ var plantSquare11 = function () {
 
     function sugarGrow11() {
         sugar += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1096,6 +1147,7 @@ var plantSquare11 = function () {
 
     function carrotGrow11() {
         carrots += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1103,13 +1155,17 @@ var plantSquare11 = function () {
 
     function potatoGrow11() {
         potatoes += 1;
+        cropIn11 = false;
         plot11.style.backgroundColor = "green";
         plot11.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare12 = function () {
+  if (cropIn12 == false) {
+    cropIn12 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1156,6 +1212,7 @@ var plantSquare12 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow12() {
         corn += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1163,6 +1220,7 @@ var plantSquare12 = function () {
 
     function wheatGrow12() {
         wheat += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1170,6 +1228,7 @@ var plantSquare12 = function () {
 
     function riceGrow12() {
         rice += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1177,6 +1236,7 @@ var plantSquare12 = function () {
 
     function sugarGrow12() {
         sugar += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1184,6 +1244,7 @@ var plantSquare12 = function () {
 
     function carrotGrow12() {
         carrots += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1191,13 +1252,17 @@ var plantSquare12 = function () {
 
     function potatoGrow12() {
         potatoes += 1;
+        cropIn12 = false;
         plot12.style.backgroundColor = "green";
         plot12.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare13 = function () {
+  if (cropIn13 == false) {
+    cropIn13 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1244,6 +1309,7 @@ var plantSquare13 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow13() {
         corn += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1251,6 +1317,7 @@ var plantSquare13 = function () {
 
     function wheatGrow13() {
         wheat += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1258,6 +1325,7 @@ var plantSquare13 = function () {
 
     function riceGrow13() {
         rice += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1265,6 +1333,7 @@ var plantSquare13 = function () {
 
     function sugarGrow13() {
         sugar += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1272,6 +1341,7 @@ var plantSquare13 = function () {
 
     function carrotGrow13() {
         carrots += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1279,13 +1349,17 @@ var plantSquare13 = function () {
 
     function potatoGrow13() {
         potatoes += 1;
+        cropIn13 = false;
         plot13.style.backgroundColor = "green";
         plot13.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare14 = function () {
+  if (cropIn14 == false) {
+    cropIn14 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1332,6 +1406,7 @@ var plantSquare14 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow14() {
         corn += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1339,6 +1414,7 @@ var plantSquare14 = function () {
 
     function wheatGrow14() {
         wheat += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1346,6 +1422,7 @@ var plantSquare14 = function () {
 
     function riceGrow14() {
         rice += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1353,6 +1430,7 @@ var plantSquare14 = function () {
 
     function sugarGrow14() {
         sugar += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1360,6 +1438,7 @@ var plantSquare14 = function () {
 
     function carrotGrow14() {
         carrots += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1367,13 +1446,17 @@ var plantSquare14 = function () {
 
     function potatoGrow14() {
         potatoes += 1;
+        cropIn14 = false;
         plot14.style.backgroundColor = "green";
         plot14.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare15 = function () {
+  if (cropIn15 == false) {
+    cropIn15 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1420,6 +1503,7 @@ var plantSquare15 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow15() {
         corn += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1427,6 +1511,7 @@ var plantSquare15 = function () {
 
     function wheatGrow15() {
         wheat += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1434,6 +1519,7 @@ var plantSquare15 = function () {
 
     function riceGrow15() {
         rice += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1441,6 +1527,7 @@ var plantSquare15 = function () {
 
     function sugarGrow15() {
         sugar += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1448,6 +1535,7 @@ var plantSquare15 = function () {
 
     function carrotGrow15() {
         carrots += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1455,13 +1543,17 @@ var plantSquare15 = function () {
 
     function potatoGrow15() {
         potatoes += 1;
+        cropIn15 = false;
         plot15.style.backgroundColor = "green";
         plot15.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare16 = function () {
+  if (cropIn16 == false) {
+    cropIn16 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1508,6 +1600,7 @@ var plantSquare16 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow16() {
         corn += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1515,6 +1608,7 @@ var plantSquare16 = function () {
 
     function wheatGrow16() {
         wheat += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1522,6 +1616,7 @@ var plantSquare16 = function () {
 
     function riceGrow16() {
         rice += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1529,6 +1624,7 @@ var plantSquare16 = function () {
 
     function sugarGrow16() {
         sugar += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1536,6 +1632,7 @@ var plantSquare16 = function () {
 
     function carrotGrow16() {
         carrots += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1543,14 +1640,18 @@ var plantSquare16 = function () {
 
     function potatoGrow16() {
         potatoes += 1;
+        cropIn16 = false;
         plot16.style.backgroundColor = "green";
         plot16.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 
 var plantSquare17 = function () {
+  if (cropIn17 == false) {
+    cropIn17 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1597,6 +1698,7 @@ var plantSquare17 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow17() {
         corn += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1604,6 +1706,7 @@ var plantSquare17 = function () {
 
     function wheatGrow17() {
         wheat += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1611,6 +1714,7 @@ var plantSquare17 = function () {
 
     function riceGrow17() {
         rice += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1618,6 +1722,7 @@ var plantSquare17 = function () {
 
     function sugarGrow17() {
         sugar += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1625,6 +1730,7 @@ var plantSquare17 = function () {
 
     function carrotGrow17() {
         carrots += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1632,13 +1738,17 @@ var plantSquare17 = function () {
 
     function potatoGrow17() {
         potatoes += 1;
+        cropIn17 = false;
         plot17.style.backgroundColor = "green";
         plot17.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare18 = function () {
+  if (cropIn18 == false) {
+    cropIn18 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1685,6 +1795,7 @@ var plantSquare18 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow18() {
         corn += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1692,6 +1803,7 @@ var plantSquare18 = function () {
 
     function wheatGrow18() {
         wheat += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1699,6 +1811,7 @@ var plantSquare18 = function () {
 
     function riceGrow18() {
         rice += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1706,6 +1819,7 @@ var plantSquare18 = function () {
 
     function sugarGrow18() {
         sugar += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1713,6 +1827,7 @@ var plantSquare18 = function () {
 
     function carrotGrow18() {
         carrots += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1720,11 +1835,13 @@ var plantSquare18 = function () {
 
     function potatoGrow18() {
         potatoes += 1;
+        cropIn18 = false;
         plot18.style.backgroundColor = "green";
         plot18.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare19 = function () {
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
