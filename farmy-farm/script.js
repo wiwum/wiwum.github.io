@@ -102,7 +102,7 @@ var cropIn20 = false;
 var plantSquare1 = function () {
   //the first if statement detects wether or not there is a crop in the square
   if (cropIn1 == false) {
-    cropIn1 = false;
+    cropIn1 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
