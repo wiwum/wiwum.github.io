@@ -1,13 +1,11 @@
-//variables to select the word based on a random number
-var selectNum;
+//variable to select the word based on a random number
 var selectWord;
 //paragragh that displays the line
 var line = document.getElementById("cardSentance");
 
 //function to select and display word
 var randomAdjective = function () {
-  selectNum = Math.random(1, 6);
-  selectWord = Math.round(selectNum);
+  selectWord = Math.floor(Math.random() * 6) + 1
   if (selectWord == 1) {
     line.innerHTML = "My mom is wonderful";
   }
