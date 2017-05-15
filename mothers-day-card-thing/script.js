@@ -10,18 +10,18 @@ var randomAdjective = function () {
     line.innerHTML = "My mom is wonderful";
   }
   if (selectWord == 2) {
-    line.innerHTML = "My mome is faithful";
+    line.innerHTML = "My mom is faithful";
   }
   if (selectWord == 3) {
-    line.innerHTML = "My mome is beautiful";
+    line.innerHTML = "My mom is beautiful";
   }
   if (selectWord == 4) {
-    line.innerHTML = "My mome is loving";
+    line.innerHTML = "My mom is loving";
   }
   if (selectWord == 5) {
-    line.innerHTML = "My mome is greatful";
+    line.innerHTML = "My mom is greatful";
   }
   if (selectWord == 6) {
-    line.innerHTML = "My mome is perfect";
+    line.innerHTML = "My mom is perfect";
   }
 };
