@@ -1844,6 +1844,8 @@ var plantSquare18 = function () {
   }
 };
 var plantSquare19 = function () {
+  if (cropIn19 == false) {
+    cropIn19 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1890,6 +1892,7 @@ var plantSquare19 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow19() {
         corn += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1897,6 +1900,7 @@ var plantSquare19 = function () {
 
     function wheatGrow19() {
         wheat += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1904,6 +1908,7 @@ var plantSquare19 = function () {
 
     function riceGrow19() {
         rice += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1911,6 +1916,7 @@ var plantSquare19 = function () {
 
     function sugarGrow19() {
         sugar += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1918,6 +1924,7 @@ var plantSquare19 = function () {
 
     function carrotGrow19() {
         carrots += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1925,13 +1932,17 @@ var plantSquare19 = function () {
 
     function potatoGrow19() {
         potatoes += 1;
+        cropIn19 = false;
         plot19.style.backgroundColor = "green";
         plot19.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 var plantSquare20 = function () {
+  if (cropIn20) {
+    cropIn20 = true;
     //the if statements subtract from your money, set the styling to make the square look active, and set a timeOut to and call a function that will give you the crop.
     if (crop == "corn" && money >= 1) {
         money -= 1;
@@ -1978,6 +1989,7 @@ var plantSquare20 = function () {
     //the functions give you the crop reset the styling of the square
     function cornGrow20() {
         corn += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1985,6 +1997,7 @@ var plantSquare20 = function () {
 
     function wheatGrow20() {
         wheat += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1992,6 +2005,7 @@ var plantSquare20 = function () {
 
     function riceGrow20() {
         rice += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -1999,6 +2013,7 @@ var plantSquare20 = function () {
 
     function sugarGrow20() {
         sugar += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -2006,6 +2021,7 @@ var plantSquare20 = function () {
 
     function carrotGrow20() {
         carrots += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
@@ -2013,11 +2029,13 @@ var plantSquare20 = function () {
 
     function potatoGrow20() {
         potatoes += 1;
+        cropIn20 = false;
         plot20.style.backgroundColor = "green";
         plot20.innerHTML = "";
         numOfItems.innerHTML = "corn: " + corn + " wheat: " + wheat + " rice: " + rice + " sugar: " + sugar + " carrots: " + carrots + " potatoes: " + potatoes + " bread: " + bread + " cake: " + cake + " corn bread: " + cornBread + " carrot cake: " + carrotCake + " corn chips: " + cornChips + " sweet potatoes: " + sweetPotatoes + " sweet carrots: " + sweetCarrots;
     }
     farmTitle.innerHTML = "This is your farm. you have " + money + " moneys.";
+  }
 };
 //Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen Kitchen//
 var breadButton = document.getElementById("kitchenBread");
