@@ -1,0 +1,56 @@
+/*
+   All this does is just add colors to the page to make it almost obnoxious.
+   Also the headings are colored to split up the page.
+*/
+
+H1 {
+   background-color: green;
+   color: orange;
+}
+
+H2 {
+   background-color: #FFFF00;
+}
+
+H3 {
+   background-color: #00FF00;
+}
+
+firstyub {
+   background-color: green;
+   color: yellow;
+   text-decoration: underline;
+   border-style: dotted;
+   border-color: orange;
+   letter-spacing: 50px;
+   text-shadow: 7px 2px purple;
+   opacity: .5;
+}
+
+thesecondyub {
+   background-color: green;
+   color: yellow;
+}
+
+yub3 {
+   background-color: green;
+   color: yellow;
+}
+
+nub {
+   background-color: red;
+   color: white;
+   text-decoration: line-through;
+}
+
+second-game-head {
+   font-weight: bold;
+}
+
+red {
+   color: red;
+}
+
+blue {
+   color: blue;
+}

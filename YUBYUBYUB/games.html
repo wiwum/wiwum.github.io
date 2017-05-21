@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>yub games</title>
+</head>
+
+<body>
+   <game-section-head>
+      <H1>This is the games section</H1>
+      <H2>You can play interactive games here. Scroll down to play</H2>
+   </game-section-head>
+   <first-game-head>
+      <H3>This is the first game. One of the options will win you the game reload to restart</H3>
+   </first-game-head>
+   <first-game-body>
+      <button type="button" onclick="optone()">option 1</button>
+      <button type="button" onclick="opttwo()">option 2</button>
+      <script type="text/javascript" src="./jsFiles/gameone.js"></script>
+   </first-game-body>
+   <second-game-head>
+      <H2>This is the second game, it is a two player game.</H2>
+      <p1>HOW TO PLAY: one person will click one of the options labeled P1 to win (whitout the other looking) next the other person will take the computer and click one of the options labeled P2. The option corrosponding to the one selected by player one
+         will win player two the game.</p1>
+
+   </second-game-head>
+   <second-game-body>
+      <script type="text/javascript" src="./jsFiles/gametwo.js"></script>
+      <H4>
+         <red>player one options</red>
+      </H4>
+      <button type="button" onclick="winoptone()">option 1</button>
+      <button type="button" onclick="winopttwo()">option 2</button>
+      <H4>
+         <blue>player two options</blue>
+      </H4>
+      <button type="button" onclick="clickoptone()">option 1</button>
+      <button type="button" onclick="clickopttwo()">option 2</button>
+   </second-game-body>
+   <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+   <H3>back to home page</H3>
+   <a href="./home.html">home</a>
+</body>
+
+</html>
