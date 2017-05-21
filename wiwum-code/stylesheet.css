@@ -1,0 +1,21 @@
+input {
+   padding-right: 100px;
+}
+
+output {
+   color: black;
+   background-color: white;
+   font-size: 14px;
+}
+
+.subset1 {
+   padding-left: 75px;
+}
+
+.subset2 {
+   padding-left: 125px;
+}
+
+body {
+   font-family: georgia, serif;
+}
