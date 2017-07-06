@@ -1,0 +1,41 @@
+/*default styles*/
+
+game-board>game-square {
+  width: 10px
+  height: 10px
+}
+
+
+/*color styles:*/
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
