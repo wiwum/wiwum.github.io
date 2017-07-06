@@ -1,8 +1,8 @@
 /*default styles*/
 
-game-board>game-square {
-  width: 10px
-  height: 10px
+game-square {
+  width: 10px ;
+  height: 10px;
 }
 
 
@@ -10,32 +10,40 @@ game-board>game-square {
 
 .red {
   background-color: red;
+  color: red;
 }
 
 .orange {
   background-color: orange;
+  color: orange;
 }
 
 .yellow {
   background-color: yellow;
+  color: yellow;
 }
 
 .green {
   background-color: green;
+  color: green;
 }
 
 .blue {
   background-color: blue;
+  color: blue;
 }
 
 .purple {
   background-color: purple;
+  color: purple;
 }
 
 .white {
   background-color: white;
+  color: white;
 }
 
 .black {
   background-color: black;
+  color: black;
 }
