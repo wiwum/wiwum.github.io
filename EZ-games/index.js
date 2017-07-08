@@ -9,7 +9,7 @@ var YLoc = 1;
 // for loop to add the <game-square> elements into the <game-board> element
 for (var i = 0; i < 144; i++) {
   // <game-square> element contents goe down
-  gameBoard.innerHTML =  currentGameBoardData + "<game-square x-loc='" + XLoc + "' y-loc='" + YLoc + "' class='black'>o</game-square>";
+  gameBoard.innerHTML =  currentGameBoardData + "<game-square x-loc='" + XLoc + "' y-loc='" + YLoc + "' class='black'></game-square>";
   currentGameBoardData = gameBoard.innerHTML;
   XLoc++;
   if (XLoc == 13) {
@@ -19,3 +19,9 @@ for (var i = 0; i < 144; i++) {
   }
   currentGameBoardData = gameBoard.innerHTML;
 }
+
+// color change function
+var changeColor = function (x, y, c) {
+  var selectedSquare = document.querySelector('[x-loc = "x"][y-loc = y]');
+  selectedSquare.backgroundColor = c;
+};
