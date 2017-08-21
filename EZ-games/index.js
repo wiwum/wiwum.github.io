@@ -21,6 +21,9 @@ for (var i = 0; i < 144; i++) {
   currentGameBoardData = gameBoard.innerHTML;
 }
 
+//for loop to add the javascript into the <game-board> element !!! warning this is not very "clean" code
+document.getElementById("1,1").innerHTML = "<test></test>"
+
 // color change function
 var changeColor = function (x, y, c) {
   var squareCoordinates = x + "," + y; // puts the squares coordinates into a string.
