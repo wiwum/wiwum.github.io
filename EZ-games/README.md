@@ -3,7 +3,7 @@
 > EZ-games makes it easier to code games in a 12 by 12 pixel (colored blocks) game board
 
 * EZ-games is like jQuery for coding games
-  - if you add a game-board element to the body of your HTML this software will add 144 div elements with styling to it
+  - if you add a game-board element to the body of your HTML this software will add 144 game-square elements with styling to it
     - these will have 10 pixels padding
     - the default color is black (but that can be changed)
   - from there you can change the color of the elements with the changeColor function
