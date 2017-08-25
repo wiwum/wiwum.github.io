@@ -135,7 +135,7 @@ var superClicksToClicks = function () {
 var perMinutePerMinuteBuyer = function () {
    if (superClicks >= 3) {
       superClicks -= 3;
-      perMinutePerMinute += 150000;
+      perMinutePerMinute += 1000;
       superClicksNumber.innerHTML = "you have " + superClicks + " super clicks";
    }
 };
