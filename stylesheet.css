@@ -2,7 +2,7 @@ body {
   background-color: lightblue;
 }
 H1, H2 {
-  text: darkred;
+  color: darkred;
 }
 
 a {
