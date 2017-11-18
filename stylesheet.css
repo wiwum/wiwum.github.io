@@ -1,6 +1,8 @@
 body {
-  background-color: green;
-  text: blue;
+  background-color: lightblue;
+}
+H1, H2 {
+  color: darkred;
 }
 
 a {
