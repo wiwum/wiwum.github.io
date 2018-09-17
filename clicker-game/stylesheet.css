@@ -20,3 +20,7 @@ button:active {
    color: white;
    border: 3px solid white;
 }
+
+a {
+   text-size: 50;
+}
