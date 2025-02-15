@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+}
+
+h1 {
+    line-height: 43%;
+}
+
+h2 {
+    line-height: 80%;
+}
